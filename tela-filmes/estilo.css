@@ -1,0 +1,188 @@
+/* .container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cabecalho .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    font-size: 18px;
+    color:#1E234B;
+    font-weight: 500;
+}
+
+.data{
+    font-size: 38px;
+    color:#1E234B;
+    font-weight: 500;
+}
+
+.cabecalho ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ */
+
+:root {
+    --azul: #1E234B;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+}
+
+.cabecalho ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho ul li {
+    padding: 50px 25px;
+}
+
+.cabecalho ul li a {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cabecalho .container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--azul);
+}
+
+.cabecalho .data .hora {
+    font-size: 38px;
+}
+
+.cabecalho .data .dia {
+    font-size: 12px;
+}
+
+.hero{
+    background-color: #00CCFF;
+}
+
+.hero .container{
+    display: flex;   
+    flex-direction: row;
+}
+
+.hero .container .descricaoFilme{
+    color: #FFFFFF; 
+    height: 350px;
+    width: 448px;
+    margin-left: 120px;
+    margin-top: 130px;
+    margin-bottom: 89px;
+}
+
+.hero .container .descricaoFilme h1 {
+    font-size: 40px;
+}
+
+.hero .container .descricaoFilme p{
+    font-size: 15px;
+}
+
+.hero .container .descricaoFilme .botaoAssistirTrailer{
+    color: #1E234B;
+    background-color: white;
+    width: 100px;
+}
+
+.recomendados ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.recomendados .container{
+    display: flex;
+    flex-direction: column;   
+}
+
+.recomendados .container .titulo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.recomendados .container .titulo h1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E234B;
+}
+
+.maisfilmes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maisfilmes .tituloMaisFilmes ul {
+    list-style-type: none;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloMaisFilmes ul li {
+    padding: 50px 25px;
+}
+
+.tituloMaisFilmes  ul li a {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tituloMaisFilmes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.listaMaisFilmes li{
+    display: flex;
+    flex-direction: row;
+}
+
+.listaMaisFilmes .descricao{
+    display: flex;
+    flex-direction: column;
+}
